@@ -12,6 +12,7 @@ string ari(string s){
 	for(int i=0;i<len;i++){
 	  if(isalnum(s[i]))
 	    num_char++;
+		
 	  if(s[i]==' ')
 	    num_word++;
 	  if(s[i]=='!'||s[i]=='?'||s[i]=='.')
